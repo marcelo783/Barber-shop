@@ -41,10 +41,10 @@ const Header = () => {
 
           <IconContainer>
           <a href="https://www.instagram.com/seuUsuario" target="_blank" rel="noopener noreferrer">
-            <InstagramIcon size={30}/>
+            <InstagramIcon/>
           </a>
           <a href="https://wa.me/seuNumeroWhatsApp" target="_blank" rel="noopener noreferrer">
-            <WhatsappIcon size={30}/>
+            <WhatsappIcon/>
           </a>
         </IconContainer>
         </Nav>

@@ -26,15 +26,11 @@ const GlobalStyle = createGlobalStyle`
         font-size: 62.5%;
     }
     body {
-        background-color: #1F1E1E;
+        background-color: #141414;
         font-size: 'public Sans', 'sans-serif';
     }
 
-    a{
-        color: #D4B853;
-        font-family: 'Permanent Marker';
-        font-size:1.65rem;
-    }
+
 `;
 
 export default GlobalStyle;
