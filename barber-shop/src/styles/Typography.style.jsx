@@ -1,14 +1,19 @@
 import  styled from "styled-components";
 
+
+
 export const H1 = styled.h1`
-    font-size: 3.6rem;
+    text-align:center;
+    font-size: 3.1rem;
+    color:var(--Gold);
+    font-family: 'Permanent Marker';
 `;
-export const H2 = styled.h2``;
-export const H3 = styled.h3``;
-export const H4 = styled.h4``;
 
 export const Para = styled.p`
-    font-size: 13.6rem;
-    color: var(--GreyishBlue);
+    padding-left: 4rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--White);
+    font-family: "Irish Grover", system-ui;
 `;
 

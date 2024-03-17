@@ -1,9 +1,10 @@
 import React from "react";
 
 
-import { HeroWrapper, HeroImage, LogoImage } from "./Hero.style";
+import { HeroImage, LogoImage } from "./Hero.style";
 import HeroImg from "../../imagens/men.jpg";
 import  LogoImag  from "../../imagens/logo-barber-2.png";
+import { ImgSections } from "../../styles/common.style";
 
 
 
@@ -11,7 +12,7 @@ const Hero = () => {
     return (
         <div>
 
-            <HeroWrapper>
+            <ImgSections>
 
                 <HeroImage>
                     <img src={HeroImg} alt="hero" />
@@ -21,8 +22,8 @@ const Hero = () => {
                     <img src={LogoImag} alt="" />
                 </LogoImage>
 
+            </ImgSections>
 
-            </HeroWrapper>
 
         </div>
     )

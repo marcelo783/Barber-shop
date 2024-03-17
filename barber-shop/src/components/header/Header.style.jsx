@@ -4,9 +4,18 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import breakpoints from "../../styles/breakPoints";
 
 export const Navigation = styled.header`
+    position:fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    height: 0;
     width: 100%;
+
+
+
 `;
 export const Nav = styled.nav`
+   background-color:#000000;
     padding: 3rem 0;
     display: flex;
     justify-content: space-between;

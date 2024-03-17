@@ -3,14 +3,10 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 
     :root {
-        --DarkBlue: hsl(233, 26%, 24%);
-        --LimeGree: hsl(136, 65%, 51%);
-        --BrightCyan: hsl(192, 70%, 51%);
-
-        --GryishBlue: hsl(233, 8%, 62%);
-        --LightGrayishBlue: hsl(230, 16%, 96%);
-        --VeryLightGray: hsl(0, 0%, 98%);
-        --White: hsl(0, 0%, 100%);
+    --White: #FFFFFF;
+    --Black: #000000;
+    --DarkGrey: #1F1E1E;
+    --Gold: #D4B853;
     }
 
     *{
@@ -26,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: 62.5%;
     }
     body {
-        background-color: #141414;
+        background-color:#1F1E1E;
         font-size: 'public Sans', 'sans-serif';
     }
 
