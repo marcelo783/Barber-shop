@@ -12,11 +12,11 @@ export const InfoWrapper = styled.div`
 
 export const InfoImage = styled.div`
 
-    border: 5px solid var(--Gold);
+    border: 1vh solid var(--Gold);
     img {
         width: 100vh;
         height: 76vh;
-        max-width: 70vh; 
+        max-width: 70vh;
     }
 
 
