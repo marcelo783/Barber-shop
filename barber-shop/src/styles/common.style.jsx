@@ -27,7 +27,7 @@ text-align:center;
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  position: relative;
- height:60vh;
+ height:50vh;
  width: 100%;
 
 `;
