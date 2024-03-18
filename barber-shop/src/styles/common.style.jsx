@@ -21,3 +21,14 @@ export const Sections = styled.section`
  overflow: hidden;
 `;
 
+export const SectionsContact = styled.section`
+padding-top:5rem;
+text-align:center;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ position: relative;
+ height:60vh;
+ width: 100%;
+
+`;
+
