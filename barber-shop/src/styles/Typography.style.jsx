@@ -16,7 +16,6 @@ export const H2 = styled.h2`
 `;
 
 export const Pa = styled.p`
-    padding-right: 5rem;
     font-size: 1.6rem;
     color: var(--White);
     font-family: "Irish Grover", system-ui;
