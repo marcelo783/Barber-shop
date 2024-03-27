@@ -9,7 +9,7 @@ const Contact = () => {
     return(
         <div>
             <Container>
-            <H1>Contato</H1>
+            <H1  id="contato">Contato</H1>
                 <SectionsContact>
 
                     <ContactGrid>

@@ -20,10 +20,12 @@ const GlobalStyle = createGlobalStyle`
 
     html{
         font-size: 62.5%;
+        scroll-padding-top:17%;
     }
     body {
         background-color:#1F1E1E;
         font-size: 'public Sans', 'sans-serif';
+
     }
 
 

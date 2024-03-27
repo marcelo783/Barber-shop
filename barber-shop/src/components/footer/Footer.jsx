@@ -1,8 +1,8 @@
 import React from "react";
-import { Pa } from "../../styles/Typography.style";
 import { WhatsappIcon } from "../header/Header.style";
-import {  FooterCard, LogoFooter, Rodape, FooterCardImg } from "./footer.style";
+import {  FooterCard, LogoFooter, Rodape, FooterCardImg, Panimation  } from "./footer.style";
 import  LogoWhite  from "../../imagens/logo_branca.svg";
+import { Pa } from "../../styles/Typography.style";
 
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
     <div>
         <Rodape>
           <FooterCard >
-          <Pa>Estamos Online</Pa>
+          <Panimation>Estamos Online</Panimation>
            <WhatsappIcon>
 
            </WhatsappIcon>

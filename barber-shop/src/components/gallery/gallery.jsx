@@ -27,7 +27,7 @@ const Gallery = () => {
     return (
         <div>
             <Container>
-                <H1>Galeria</H1>
+                <H1  id="galeria">Galeria</H1>
             <ContainerGallery>
 
                 <Carousel ref={carousel} whileTap={{ cursor:"grabbing"}}>

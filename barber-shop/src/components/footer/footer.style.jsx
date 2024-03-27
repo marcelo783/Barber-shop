@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes }  from "styled-components";
 
 export const Rodape = styled.footer`
  padding:0 10rem;
@@ -49,3 +49,25 @@ export const LogoWhite = styled.div`
     }
 
 `;
+
+const blink = keyframes`
+  from {
+    opacity: 6;
+  }
+
+  to {
+    opacity: 0;
+  }
+`;
+
+
+
+export const Panimation = styled.p`
+    animation: ${blink} 0.5s linear infinite alternate;
+     font-size: 1.6rem;
+     color: #40e340;
+    font-family: "Irish Grover", system-ui;
+`;
+
+
+

@@ -12,8 +12,9 @@ export const Navigation = styled.header`
     width: 100%;
 
 
-
 `;
+
+
 export const Nav = styled.nav`
    background-color:#000000;
     padding: 3rem 0;
@@ -33,7 +34,7 @@ export const Nav = styled.nav`
 `;
 export const Ul = styled.ul`
     display: flex;
-    width:  55%;
+    width:  45%;
     justify-content: space-between;
 
     @media ${breakpoints.bg} {

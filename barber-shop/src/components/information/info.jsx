@@ -9,8 +9,8 @@ const Info = () => {
 
         <div>
             <Container>
-                <Sections>
-                    <H1>Quem Somos</H1>
+                <Sections >
+                    <H1 id="quem-somos" >Quem Somos</H1>
                     <InfoWrapper>
                     <InfoImage>
                         <img src={Infoimg} alt="info" />

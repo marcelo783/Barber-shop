@@ -10,7 +10,7 @@ const Service = () => {
         <div>
             <Sections>
                 <BackgroundImage>
-                    <H1>Serviços</H1>
+                    <H1  id="servicos">Serviços</H1>
                     <ServicesGrid>
         <ServiceItem>SOBRANCELHA</ServiceItem>
         <Price>R$ 5,00</Price>

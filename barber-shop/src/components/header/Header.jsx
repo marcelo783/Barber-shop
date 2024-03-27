@@ -2,15 +2,24 @@ import React from 'react';
 import { Navigation, Nav, Ul, Li, Logo, InstagramIcon, WhatsappIcon, IconContainer, StyledLink, StyledA  } from './Header.style';
 import logo from '../../imagens/logo.svg'
 import { Link } from 'react-router-dom';
-
-
 import { Container } from '../../styles/common.style';
+
+const scrollToSection = (sectionId) => {
+  if (sectionId === 'topo') {
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Rola até o topo da página
+  } else {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+};
 
 
 
 const Header = () => {
   return (
-    <div>
+    <div id="inicio">
       <Container>
       <Navigation>
         <Nav>
@@ -20,23 +29,21 @@ const Header = () => {
 
           <Ul>
             <Li>
-              <StyledLink to={`#`}>Início</StyledLink>
+            <StyledLink onClick={() => scrollToSection('inicio')}>Início</StyledLink>
             </Li>
             <Li>
-              <StyledLink to={`#`}>Quem Somos</StyledLink>
+            <StyledLink onClick={() => scrollToSection('quem-somos')}>Quem Somos</StyledLink>
             </Li>
             <Li>
-              <StyledLink to={`#`}>Serviços</StyledLink>
+            <StyledLink onClick={() => scrollToSection('servicos')}>Serviços</StyledLink>
             </Li>
             <Li>
-              <StyledLink to={`#`}>Galeria</StyledLink>
+            <StyledLink onClick={() => scrollToSection('galeria')}>Galeria</StyledLink>
             </Li>
             <Li>
-              <StyledLink to={`#`}>Contato</StyledLink>
+            <StyledLink onClick={() => scrollToSection('contato')}>Contato</StyledLink>
             </Li>
-            <Li>
-            <StyledA href="https://www.instagram.com/seuUsuario">Agendar</StyledA>
-            </Li>
+            
           </Ul>
 
           <IconContainer>
