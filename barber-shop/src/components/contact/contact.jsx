@@ -35,20 +35,7 @@ const Contact = () => {
                         </ContactCard>
                     </ContactGrid>
 
-                    <ContactGrid>
-                        <ContactCard>
-                            <H2>Endereço</H2>
-                            <IconContainer>
-          <a href="https://www.instagram.com/seuUsuario" target="_blank" rel="noopener noreferrer">
-            <InstagramIcon/>
-          </a>
-          <a href="https://wa.me/seuNumeroWhatsApp" target="_blank" rel="noopener noreferrer">
-            <WhatsappIcon/>
-          </a>
-        </IconContainer>
-
-                        </ContactCard>
-                    </ContactGrid>
+                
                 </SectionsContact>
             </Container>
         </div>

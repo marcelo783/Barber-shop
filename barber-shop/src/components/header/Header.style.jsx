@@ -24,12 +24,12 @@ export const Nav = styled.nav`
 
 
     @media ${breakpoints.bg} {
-    padding: 2rem 0;
+    //padding: 2rem 0;
 
   }
 
   @media ${breakpoints.md} {
-    padding: 2rem 0;
+   // padding: 2rem 0;
   }
 `;
 export const Ul = styled.ul`

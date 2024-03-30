@@ -1,4 +1,5 @@
 import  styled from "styled-components";
+import breakpoints from "./breakPoints";
 
 
 
@@ -7,6 +8,8 @@ export const H1 = styled.h1`
     font-size: 3.1rem;
     color:var(--Gold);
     font-family: 'Permanent Marker';
+
+
 `;
 
 export const H2 = styled.h2`
@@ -16,6 +19,7 @@ export const H2 = styled.h2`
 `;
 
 export const Pa = styled.p`
+    margin-top:2vh;
     font-size: 1.6rem;
     color: var(--White);
     font-family: "Irish Grover", system-ui;
@@ -28,5 +32,9 @@ export const Para = styled.p`
     font-size: 1.6rem;
     color: var(--White);
     font-family: "Irish Grover", system-ui;
+
+    @media ${breakpoints.md} {
+        padding-left: 0; // Remove o padding à esquerda em telas menores
+    }
 `;
 

@@ -31,7 +31,7 @@ export const LogoFooter = styled.div`
 
         width: 100%;
         height: 100%;
-        object-fit: cover; // Faz a imagem cobrir o espaço disponível
+         // Faz a imagem cobrir o espaço disponível
     }
 
 `;
@@ -40,7 +40,7 @@ export const LogoFooter = styled.div`
 export const LogoWhite = styled.div`
     position: absolute;
     transform: translateX(-50%); // Ajuste fino para centralizar exatamente
-    width: 10dvw;
+    width: 10vw;
     height:auto;
 
     img {
