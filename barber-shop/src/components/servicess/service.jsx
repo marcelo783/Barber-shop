@@ -1,14 +1,13 @@
 import React from "react";
-import { Sections } from "../../styles/common.style";
 import { H1 } from "../../styles/Typography.style";
-import { BackgroundImage, ServiceItem, Price, ServicesGrid } from "../../components/servicess/service.style"
+import { BackgroundImage, ServiceItem, Price, ServicesGrid, SectionService } from "../../components/servicess/service.style"
 
 
 
 const Service = () => {
     return (
         <div>
-            <Sections>
+            <SectionService>
                 <BackgroundImage>
                     <H1  id="servicos">Serviços</H1>
                     <ServicesGrid>
@@ -33,7 +32,7 @@ const Service = () => {
 
                 </BackgroundImage>
 
-            </Sections>
+            </SectionService>
         </div>
 
     )

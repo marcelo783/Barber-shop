@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "../../styles/common.style";
 import { ContainerMap, MapBox, MapIfreme } from "./map.style";
 
+
 const Map = () => {
     return(
         <div>

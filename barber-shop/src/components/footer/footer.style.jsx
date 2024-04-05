@@ -1,13 +1,23 @@
 import styled, { keyframes }  from "styled-components";
+import breakpoints from "../../styles/breakPoints";
+
 
 export const Rodape = styled.footer`
- padding:0 10rem;
+   padding:0 10rem;
    width:100%;
    height:19vh;
    align-items: center;
    background-color:black;
    display:flex;
   justify-content: space-between;
+
+
+    @media ${breakpoints.bg} {
+      padding: 0 5rem;
+    }
+
+
+
 `;
 
 export const FooterCard = styled.div`
@@ -26,6 +36,13 @@ export const FooterCardImg = styled.div`
 export const LogoFooter = styled.div`
     height: 17vh;
     width: 6vw;
+
+    @media ${breakpoints.bg} {
+        height:20vh;
+        width: 9vh;
+
+
+    }
 
     img {
 
@@ -64,7 +81,7 @@ const blink = keyframes`
 
 export const Panimation = styled.p`
     animation: ${blink} 0.5s linear infinite alternate;
-     font-size: 1.6rem;
+     font-size: 1.9rem;
      color: #40e340;
     font-family: "Irish Grover", system-ui;
 `;

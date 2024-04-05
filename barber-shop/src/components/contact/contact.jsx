@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, SectionsContact } from "../../styles/common.style";
 import { H1, H2, Pa } from "../../styles/Typography.style";
-import { IconContainer, WhatsappIcon, InstagramIcon } from "../header/Header.style";
 import { ContactCard, ContactGrid } from "./contact.style";
 
 
@@ -35,7 +34,7 @@ const Contact = () => {
                         </ContactCard>
                     </ContactGrid>
 
-                
+
                 </SectionsContact>
             </Container>
         </div>

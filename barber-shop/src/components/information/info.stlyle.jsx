@@ -26,9 +26,15 @@ export const InfoImage = styled.div`
         display: block; /* Evita espaços extras abaixo da imagem */
     }
     @media ${breakpoints.bg} {
-        max-width: 50vh; /* Reduz a largura máxima da div quando a largura da tela for menor que 942px */
-        height: 50vh;
+        max-width: 60vh; /* Reduz a largura máxima da div quando a largura da tela for menor que 942px */
+        height: 68vh;
         margin-bottom: 2rem; // Adiciona margem inferior para separar a imagem do texto em telas menores
+    }
+
+    @media ${breakpoints.md} {
+        max-width: 53vh; /* Reduz a largura máxima da div quando a largura da tela for menor que 942px */
+        height: 64vh;
+        margin-bottom: 4rem; // Adiciona margem inferior para separar a imagem do texto em telas menores
     }
 `;
 

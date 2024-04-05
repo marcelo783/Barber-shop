@@ -30,6 +30,7 @@ export const Sections = styled.section`
  overflow: hidden;
 
  @media ${breakpoints.bg} {
+        height:100vh;
         padding-top: 3rem; // Reduz o padding-top para telas menores
 
     }
@@ -44,5 +45,10 @@ text-align:center;
  height:50vh;
  width: 100%;
 
+ @media ${breakpoints.bg} {
+        height:30vh;
+
+
+    }
 `;
 

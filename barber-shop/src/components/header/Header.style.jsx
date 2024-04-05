@@ -1,7 +1,39 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+
+import { FaInstagram, FaWhatsapp, FaBars } from "react-icons/fa";
 import breakpoints from "../../styles/breakPoints";
+
+
+
+
+export const HamburgerIcon = styled(FaBars)`
+    display: none;
+    color: #D4B853;
+    font-size: 2rem;
+    cursor: pointer;
+
+    @media ${breakpoints.md} {
+        display: block;
+    }
+`;
+
+export const ContainerMenu = styled.div`
+    display:flex;
+    justify-content:center;
+    align-items: center;
+`
+export const HamburgerMenu = styled.div`
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color:red;
+    padding-top: 1rem;
+
+    @media ${breakpoints.md} {
+        display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
+    }
+`;
 
 export const Navigation = styled.header`
     position:fixed;
@@ -10,10 +42,7 @@ export const Navigation = styled.header`
     left: 0;
     height: 0;
     width: 100%;
-
-
 `;
-
 
 export const Nav = styled.nav`
    background-color:#000000;
@@ -22,10 +51,8 @@ export const Nav = styled.nav`
     justify-content: space-between;
     justify-content: center;
 
-
     @media ${breakpoints.bg} {
     //padding: 2rem 0;
-
   }
 
   @media ${breakpoints.md} {
@@ -38,14 +65,15 @@ export const Ul = styled.ul`
     justify-content: space-between;
 
     @media ${breakpoints.bg} {
-    width: 80%;
+    width: 60%;
     justify-content: space-around;
   }
 
   @media ${breakpoints.md} {
-    width: auto;
-    flex-direction: column;
-    align-items: center;
+    display: none;
+  //  width: auto;
+   // flex-direction: column;
+   // align-items: center;
   }
 
    `;
@@ -84,8 +112,6 @@ export const WhatsappIcon = styled(FaWhatsapp)`
   &:hover {
     color: #25D366;
   }
-
-
 `;
 
 export const IconContainer = styled.div`
@@ -108,7 +134,6 @@ export const StyledLink = styled(Link)`
   position: relative;
   text-decoration: none;
 
-
   &::after {
     content: '';
     position: absolute;
@@ -125,7 +150,7 @@ export const StyledLink = styled(Link)`
   }
 
   @media ${breakpoints.bg} {
-    font-size:1.4rem;
+    font-size:1.7rem;
   }
 
   @media ${breakpoints.md} {
@@ -139,7 +164,6 @@ export const StyledA = styled.a`
   font-size:1.65rem;
   position: relative;
   text-decoration: none;
-
 
   &::after {
     content: '';

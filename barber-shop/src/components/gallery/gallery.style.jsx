@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import  styled  from "styled-components";
+import breakpoints from "../../styles/breakPoints";
 
 export const ContainerGallery = styled.div`
     width:100%;
@@ -9,7 +10,13 @@ export const ContainerGallery = styled.div`
     display: flex;
     align-items:center;
     justify-content: center;
-    
+
+    @media ${breakpoints.bg} {
+        min-height:61vh;
+
+
+   }
+
 
 `;
 
@@ -36,5 +43,19 @@ export const Item = styled(motion.div)`
         border: 1vh solid var(--Gold);
         pointer-events:none;
     }
+
+     @media ${breakpoints.bg} {
+        min-height:51vh;
+        min-width:42vw;
+        padding:0 1.3rem;
+   }
+
+     @media ${breakpoints.bg} {
+        min-height:51vh;
+        min-width:57vw;
+        padding:0 1.3rem;
+
+   }
+
 
 `;
