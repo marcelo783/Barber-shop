@@ -14,7 +14,7 @@ export const SectionService = styled.section`
         height:54vh;
         padding-top: 3rem; // Reduz o padding-top para telas menores
     }
-   
+
 `;
 
 export const BackgroundImage = styled.div`
@@ -50,7 +50,7 @@ export const ServicesGrid = styled.div`
   }
   @media ${breakpoints.sm} {
     padding: 3rem; /* Reduzindo o espaçamento em telas menores */
-    font-size:1.80rem;
+    font-size:1.6rem;
   }
 `;
 
