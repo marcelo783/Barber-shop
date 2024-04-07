@@ -41,7 +41,7 @@ export const Pa = styled.p`
     }
 
     @media ${breakpoints.sm} {
-        font-size: 1.80rem;
+        font-size: 1.50rem;
         text-align:center;
 
     }

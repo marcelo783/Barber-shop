@@ -25,7 +25,7 @@ export const MapBox = styled.div`
     }
 
     @media ${breakpoints.sm} {
-        height: 50vh;
+        height: 45vh;
         width: 75vw;
     }
 

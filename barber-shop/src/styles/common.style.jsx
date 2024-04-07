@@ -8,6 +8,10 @@ export const Container = styled.div`
         padding: 0 5rem; // Reduz o padding nas laterais para telas menores
     }
 
+    @media ${breakpoints.sm} {
+        padding: 0 4rem; // Reduz o padding nas laterais para telas menores
+    }
+
 
 `;
 
