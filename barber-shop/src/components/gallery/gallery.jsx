@@ -26,7 +26,7 @@ const Gallery = () => {
 
     return (
         <div>
-            <Container>
+
                 <H1  id="galeria">Galeria</H1>
             <ContainerGallery>
 
@@ -43,7 +43,7 @@ const Gallery = () => {
                 </Carousel>
             </ContainerGallery>
 
-            </Container>
+           
         </div>
     )
 }

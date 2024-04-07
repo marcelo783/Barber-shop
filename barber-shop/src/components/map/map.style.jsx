@@ -2,7 +2,7 @@ import  styled  from "styled-components";
 import breakpoints from "../../styles/breakPoints";
 
 
-export const ContainerMap = styled.div`
+export const ContainerMap = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,9 +10,8 @@ export const ContainerMap = styled.div`
     width: 100%;
 
     @media ${breakpoints.sm} {
-        height: 71vh;
+        height: 62vh;
     }
-
 
 `;
 
@@ -25,7 +24,7 @@ export const MapBox = styled.div`
         width: 75vw;
     }
 
-    @media ${breakpoints.md} {
+    @media ${breakpoints.sm} {
         height: 50vh;
         width: 75vw;
     }

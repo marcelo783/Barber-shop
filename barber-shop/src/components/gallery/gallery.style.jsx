@@ -52,7 +52,7 @@ export const Item = styled(motion.div)`
 
      @media ${breakpoints.sm} {
         min-height:51vh;
-        min-width:75vw;
+        min-width:82vw;
         padding:0 1.3rem;
    }
 

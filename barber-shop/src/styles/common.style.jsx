@@ -7,6 +7,8 @@ export const Container = styled.div`
     @media ${breakpoints.bg} {
         padding: 0 5rem; // Reduz o padding nas laterais para telas menores
     }
+
+
 `;
 
 export const ImgSections = styled.section`
@@ -57,6 +59,7 @@ text-align:center;
     }
 
     @media ${breakpoints.sm} {
+        height:40vh;
         display:flex;
         flex-direction: column;
         justify-content:center;
