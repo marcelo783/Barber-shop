@@ -43,10 +43,7 @@ export const Sections = styled.section`
         padding-top: 3rem; // Reduz o padding-top para telas menores
     }
 
-    @media ${breakpoints.bg} {
-        height:88vh;
-        padding-top: 3rem; // Reduz o padding-top para telas menores
-    }
+    
 `;
 
 export const SectionsContact = styled.section`

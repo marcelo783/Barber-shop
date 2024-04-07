@@ -14,7 +14,7 @@ export const SectionService = styled.section`
         height:54vh;
         padding-top: 3rem; // Reduz o padding-top para telas menores
     }
-
+   
 `;
 
 export const BackgroundImage = styled.div`
