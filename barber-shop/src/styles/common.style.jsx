@@ -18,7 +18,10 @@ export const ImgSections = styled.section`
 
  @media ${breakpoints.bg} {
     height:60vh;
+    }
 
+    @media ${breakpoints.bg} {
+    height:51vh;
     }
 `;
 
@@ -32,7 +35,11 @@ export const Sections = styled.section`
  @media ${breakpoints.bg} {
         height:100vh;
         padding-top: 3rem; // Reduz o padding-top para telas menores
+    }
 
+    @media ${breakpoints.bg} {
+        height:88vh;
+        padding-top: 3rem; // Reduz o padding-top para telas menores
     }
 `;
 
@@ -47,8 +54,13 @@ text-align:center;
 
  @media ${breakpoints.bg} {
         height:30vh;
+    }
 
-
+    @media ${breakpoints.sm} {
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
     }
 `;
 

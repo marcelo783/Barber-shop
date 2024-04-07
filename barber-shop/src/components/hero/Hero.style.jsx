@@ -51,8 +51,8 @@ export const LogoImage = styled.div`
     }
 
     @media ${breakpoints.sm} {
-        top: 22vh; /* Posição superior ajustada para 15% da altura da tela */
-        left: 18%; /* Ajuste fino para centralizar exatamente */
+        top: 15vh; /* Posição superior ajustada para 15% da altura da tela */
+        left: 14%; /* Ajuste fino para centralizar exatamente */
         transform: translateX(-50%);
         width: 80px; /* Largura reduzida para 80px */
     }

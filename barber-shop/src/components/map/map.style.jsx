@@ -9,6 +9,11 @@ export const ContainerMap = styled.div`
     height: 80vh;
     width: 100%;
 
+    @media ${breakpoints.sm} {
+        height: 71vh;
+    }
+
+
 `;
 
 export const MapBox = styled.div`
@@ -17,6 +22,11 @@ export const MapBox = styled.div`
     height: 65vh;
 
     @media ${breakpoints.md} {
+        width: 75vw;
+    }
+
+    @media ${breakpoints.md} {
+        height: 50vh;
         width: 75vw;
     }
 

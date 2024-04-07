@@ -11,10 +11,10 @@ export const SectionService = styled.section`
  overflow: hidden;
 
  @media ${breakpoints.bg} {
-        height:57vh;
+        height:54vh;
         padding-top: 3rem; // Reduz o padding-top para telas menores
-
     }
+
 `;
 
 export const BackgroundImage = styled.div`
@@ -26,6 +26,9 @@ export const BackgroundImage = styled.div`
 
   @media ${breakpoints.bg} {
     height: 50vh; /* Reduzindo a altura da imagem de fundo em telas menores */
+  }
+  @media ${breakpoints.sm} {
+    height: 46vh; /* Reduzindo a altura da imagem de fundo em telas menores */
   }
 `;
 
@@ -44,6 +47,10 @@ export const ServicesGrid = styled.div`
   @media ${breakpoints.bg} {
     padding: 5rem; /* Reduzindo o espaçamento em telas menores */
     font-size:2.40rem;
+  }
+  @media ${breakpoints.sm} {
+    padding: 5rem; /* Reduzindo o espaçamento em telas menores */
+    font-size:2.10rem;
   }
 `;
 

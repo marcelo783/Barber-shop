@@ -40,8 +40,11 @@ export const LogoFooter = styled.div`
     @media ${breakpoints.bg} {
         height:20vh;
         width: 9vh;
+    }
 
-
+    @media ${breakpoints.sm} {
+        height:15vh;
+        width: 6vh;
     }
 
     img {
@@ -84,6 +87,11 @@ export const Panimation = styled.p`
      font-size: 1.9rem;
      color: #40e340;
     font-family: "Irish Grover", system-ui;
+
+    @media ${breakpoints.sm} {
+      font-size: 1.6rem;
+
+    }
 `;
 
 

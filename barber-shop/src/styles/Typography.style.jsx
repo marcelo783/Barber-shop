@@ -13,6 +13,7 @@ export const H1 = styled.h1`
 `;
 
 export const H2 = styled.h2`
+    text-align:center;
     font-size: 2.1rem;
     color:var(--Gold);
     font-family: 'Permanent Marker';
@@ -27,6 +28,7 @@ export const H2 = styled.h2`
 export const Pa = styled.p`
     margin-top:2vh;
     font-size: 1.6rem;
+    padding: 1rem 0;
     color: var(--White);
     font-family: "Irish Grover", system-ui;
 
@@ -36,6 +38,12 @@ export const Pa = styled.p`
 
     @media ${breakpoints.md} {
         font-size: 2.10rem;
+    }
+
+    @media ${breakpoints.sm} {
+        font-size: 1.80rem;
+        text-align:center;
+
     }
 `;
 
@@ -52,6 +60,11 @@ export const PF = styled.p`
 
     @media ${breakpoints.md} {
         font-size: 1.3rem;
+
+    }
+
+    @media ${breakpoints.sm} {
+        font-size: 1.0rem;
 
     }
 `;
@@ -71,7 +84,11 @@ export const Para = styled.p`
     @media ${breakpoints.bg} {
         padding-left: 0; // Remove o padding à esquerda em telas menores
         padding:0 8rem;
+    }
 
+    @media ${breakpoints.sm} {
+        padding-left: 0; // Remove o padding à esquerda em telas menores
+        padding:0 1rem;
     }
 `;
 

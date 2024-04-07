@@ -36,6 +36,12 @@ export const InfoImage = styled.div`
         height: 64vh;
         margin-bottom: 4rem; // Adiciona margem inferior para separar a imagem do texto em telas menores
     }
+
+    @media ${breakpoints.sm} {
+        max-width: 53vh; /* Reduz a largura máxima da div quando a largura da tela for menor que 942px */
+        height: 48vh;
+        margin-bottom: 4rem; // Adiciona margem inferior para separar a imagem do texto em telas menores
+    }
 `;
 
 export const InfoText = styled.div`
