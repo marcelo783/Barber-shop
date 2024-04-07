@@ -55,7 +55,7 @@ export const ServicesGrid = styled.div`
 
   @media ${breakpoints.xs} {
        padding: 3rem;
-       font-size: 1.2rem;
+       font-size: 1.6rem;
     }
 `;
 

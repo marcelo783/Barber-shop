@@ -26,9 +26,9 @@ const GlobalStyle = createGlobalStyle`
 
         @media ${breakpoints.bg} {
             scroll-padding-top:22%;
-
     }
 
+   
 
 
     }

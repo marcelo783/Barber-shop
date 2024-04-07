@@ -23,12 +23,10 @@ export const ImgSections = styled.section`
  overflow: hidden;
 
  @media ${breakpoints.bg} {
-    height:60vh;
+    height:auto;
     }
 
-    @media ${breakpoints.bg} {
-    height:51vh;
-    }
+
 `;
 
 export const Sections = styled.section`
@@ -39,17 +37,17 @@ export const Sections = styled.section`
  overflow: hidden;
 
  @media ${breakpoints.bg} {
-        height:100vh;
+        height:auto;
         padding-top: 3rem; // Reduz o padding-top para telas menores
     }
 
     @media ${breakpoints.md} {
-        height:84vh;
+        height:auto;
         padding-top: 3rem; // Reduz o padding-top para telas menores
     }
 
     @media ${breakpoints.xs} {
-        height:100vh;
+        height:auto;
         padding-top: 3rem; // Reduz o padding-top para telas menores
     }
 
@@ -67,11 +65,11 @@ text-align:center;
  width: 100%;
 
  @media ${breakpoints.bg} {
-        height:30vh;
+        height:auto;
     }
 
     @media ${breakpoints.sm} {
-        height:40vh;
+        height:auto;
         display:flex;
         flex-direction: column;
         justify-content:center;
