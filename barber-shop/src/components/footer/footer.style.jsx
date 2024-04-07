@@ -16,6 +16,9 @@ export const Rodape = styled.footer`
       padding: 0 5rem;
     }
 
+    @media ${breakpoints.sm} {
+      padding: 0 2rem ;
+    }
 
 
 `;

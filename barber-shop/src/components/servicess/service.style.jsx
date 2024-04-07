@@ -50,7 +50,7 @@ export const ServicesGrid = styled.div`
   }
   @media ${breakpoints.sm} {
     padding: 3rem; /* Reduzindo o espaçamento em telas menores */
-    font-size:2rem;
+    font-size:1.80rem;
   }
 `;
 
