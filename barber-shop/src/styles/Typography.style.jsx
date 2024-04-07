@@ -20,7 +20,10 @@ export const H2 = styled.h2`
 
     @media ${breakpoints.bg} {
         font-size: 2.50rem;
+    }
 
+    @media ${breakpoints.sm} {
+        font-size: 2.3rem;
     }
 `;
 
@@ -64,7 +67,7 @@ export const PF = styled.p`
     }
 
     @media ${breakpoints.sm} {
-        font-size: 1.0rem;
+        font-size: 0.80rem;
 
     }
 `;

@@ -89,7 +89,7 @@ export const Panimation = styled.p`
     font-family: "Irish Grover", system-ui;
 
     @media ${breakpoints.sm} {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
 
     }
 `;

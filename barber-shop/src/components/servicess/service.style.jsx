@@ -36,7 +36,7 @@ export const BackgroundImage = styled.div`
 export const ServicesGrid = styled.div`
  font-family: 'Permanent Marker';
   padding: 5rem 20rem;
-  font-size:2.40rem;
+  font-size:2rem;
   color:var(--White);
   display: grid;
   grid-template-columns: auto auto;
@@ -58,6 +58,7 @@ export const ServicesGrid = styled.div`
 
 export const ServiceItem = styled.div`
 
+
   &:nth-child(odd) {
 
   }
@@ -68,7 +69,7 @@ export const Price = styled.div`
   text-align: center;
 
   @media ${breakpoints.bg} {
-    font-size: 2rem; /* Reduzindo o tamanho do texto em telas menores */
+
     text-align: right;
   }
 `;
