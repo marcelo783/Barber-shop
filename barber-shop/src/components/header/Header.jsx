@@ -1,5 +1,5 @@
 import React,  { useState } from 'react';
-import { Navigation, Nav, Ul, Li, Logo, InstagramIcon, WhatsappIcon, IconContainer, StyledLink, HamburgerIcon, HamburgerMenu, ContainerMenu } from './Header.style';
+import { Navigation, Nav, Ul, Li, Logo, InstagramIcon, WhatsappIcon, IconContainer, StyledLink, HamburgerIcon, HamburgerMenu } from './Header.style';
 import { Container } from '../../styles/common.style';
 
 const scrollToSection = (sectionId) => {
@@ -59,10 +59,10 @@ const Header = () => {
           {/* Exibe o menu hamburger em telas de tamanho médio (md) */}
           {isOpen && (
              <HamburgerMenu>
-            <ContainerMenu>
+
 
               {/* Coloque aqui o menu dropdown */}
-              </ContainerMenu>
+
             </HamburgerMenu>
 
           )}

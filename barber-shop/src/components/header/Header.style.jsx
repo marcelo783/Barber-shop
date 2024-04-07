@@ -10,7 +10,7 @@ import breakpoints from "../../styles/breakPoints";
 export const HamburgerIcon = styled(FaBars)`
     display: none;
     color: #D4B853;
-    font-size: 2rem;
+    font-size: 3rem;
     cursor: pointer;
 
     @media ${breakpoints.md} {
@@ -18,20 +18,25 @@ export const HamburgerIcon = styled(FaBars)`
     }
 `;
 
-export const ContainerMenu = styled.div`
-    display:flex;
-    justify-content:center;
-    align-items: center;
-`
+
 export const HamburgerMenu = styled.div`
     display: none;
     flex-direction: column;
     align-items: center;
-    background-color:red;
-    padding-top: 1rem;
+    top:0;
+    right: 0;
+    left: 0;
+
+
+    background-color:#211f1f;
+
+
 
     @media ${breakpoints.md} {
         display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
+
+
+
     }
 `;
 
@@ -45,7 +50,7 @@ export const Navigation = styled.header`
 `;
 
 export const Nav = styled.nav`
-   background-color:#000000;
+   background-color:#151414;
     padding: 3rem 0;
     display: flex;
     justify-content: space-between;
@@ -128,6 +133,7 @@ export const IconContainer = styled.div`
   }
 `;
 export const StyledLink = styled(Link)`
+
   color: #D4B853;
   font-family: 'Permanent Marker';
   font-size:1.65rem;
@@ -154,6 +160,7 @@ export const StyledLink = styled(Link)`
   }
 
   @media ${breakpoints.md} {
+    margin-top:8px;
     font-size: 1.2rem; // Reduz a fonte para melhor ajuste
   }
 `;
