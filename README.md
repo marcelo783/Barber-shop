@@ -10,10 +10,10 @@ Landing page para barbearia com o intuito de divulgar o estabelecimentor e os  s
 - **layout responsivo** Garantindo que o site se adapte em diferentes tipos de dispositivos e tamanhos de tela.
 
 ## Tecnologias Utilizadas
-- **HTML5**
-- **Styled Components** (para estilização de componentes em React)
-- **JavaScript** (para interatividade do usuário, se necessário)
-- **React** (biblioteca JavaScript para construção de interfaces de usuário)
+- **Styled Components** )
+- **JavaScript** 
+- **React**
+- **Vite**
 ## link para acessar o site no navegador: https://barbershop-mcl.netlify.app/
 
 
