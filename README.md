@@ -2,11 +2,11 @@
 Landing page para barbearia com o intuito de divulgar o estabelecimentor e os  serviços oferecidos, exibi fotos dos cortes de cabelo, e fornecer informações de contato.
 
 ## Funcionalidades Principais
-- **PÁGINA INICIAL:** Apresenta uma visão geral da barbearia, destacando os principais serviços oferecidos e convidando os visitantes a agendar um horário.
+- **PÁGINA INICIAL:** Apresenta uma visão geral da barbearia, destacando os principais serviços oferecidos.
 - **SOBRE NÓS:** Uma seção que detalha a história da barbearia, sua equipe e seus valores.
-- **SERVIÇOS:** Uma lista dos serviços oferecidos pela barbearia, com descrições detalhadas e preços.
-- **GALERIA:** Uma galeria de fotos que exibe os cortes de cabelo realizados na barbearia, fornecendo inspiração para os clientes.
-- **CONTATO:** Informações de contato da barbearia, incluindo endereço, número de telefone e formulário de contato.
+- **SERVIÇOS:** Uma lista dos serviços com descrições e preços.
+- **GALERIA:** Uma galeria de fotos que exibe os cortes de cabelo realizados na barbearia.
+- **CONTATO:** Informações de contato da barbearia, incluindo endereço, número de telefone.
 - **layout responsivo** Garantindo que o site se adapte em diferentes tipos de dispositivos e tamanhos de tela.
 
 ## Tecnologias Utilizadas
