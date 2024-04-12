@@ -10,7 +10,7 @@ Landing page para barbearia com o intuito de divulgar o estabelecimentor e os  s
 - **layout responsivo** Garantindo que o site se adapte em diferentes tipos de dispositivos e tamanhos de tela.
 
 ## Tecnologias Utilizadas
-- **Styled Components** )
+- **Styled Components**
 - **JavaScript** 
 - **React**
 - **Vite**
